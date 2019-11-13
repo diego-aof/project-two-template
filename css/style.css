@@ -1,10 +1,14 @@
 /* Enter your Styles below! */
 
 
-body { 
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
-	 }
+}
+
 
 h1, h2, h3, h4 {
 	font-family: Helvetica, sans-serif;
@@ -44,8 +48,8 @@ a:hover { color: black; }
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
-	width: 60%;
+	grid-gap: 20px ;
+	width: 100%;
 	margin: auto;
 }
 
