@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Project One - Homepage</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+<img src="img/logo.png" class="logo">
+<meta charset="UTF-8">
+<title>Project One - Homepage</title>
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="css/style.css">
 
 <style>
 body {
@@ -29,45 +28,95 @@ body {
 }
 </style>
 
+
 <body>
-
-
-<h1>Holocence</h1>
-
 <main>
 
-		
-		<div class="grid">
-			<div>
+<div class="grid">
+<div>
 
 <style>
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
+.navbar {
+  overflow: hidden;
   background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
-li a {
+.navbar a {
+  float: right;
   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+
   color: #000;
   padding: 80px 16px;
   text-decoration: none;
+  font-size: 20px;
 }
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: lavender;
+.navbar a:hover {
+  background: #f1f1f1;
   color: black;
 }
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
 </style>
-</head>
+
+    </head>
 
 <body>
 
 <h2>Nav placeholder</h2>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div>
+  <h1></h1>
+  <p> </p>
+</div>
+
+
+<main>
+
+<div class="grid" >
+
+  <ul>
+   1001 SE Morrison St
+     <br>
+     <br>
+   Portland, OR 97214
+     <br>
+     <br>
+   Thursday-Sunday 8-2:30AM
+     <br>
+     <br>
+    (503) 239-7639
+  </ul>
+        <img src="img/test1.png" class= "homeimage">
+
+</div>
+
+</main>
+  <!-- link for jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <!-- link for your script file -->
+    <script src="scripts/circle.js"></script>
+    </body>
+  </html>
 
 <ul>
   <li><a href="#home">Home</a></li>
@@ -82,7 +131,7 @@ li a:hover {
 			<div>Column 2</div>
 		</div>
 	</main>
-	
+
 	<!-- link for jquery -->
 	<script
   	src="https://code.jquery.com/jquery-3.4.1.min.js"
