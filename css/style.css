@@ -1,4 +1,7 @@
-
+p {
+  line-height: 32px;   /* within paragraph */
+  margin-bottom: 30px; /* between paragraphs */
+  }
 
 
 
@@ -150,10 +153,7 @@ height :1000px;
 
 }
 
-p {
-  line-height: 32px;   /* within paragraph */
-  margin-bottom: 30px; /* between paragraphs */
-  }
+
 
 
 .shows{
